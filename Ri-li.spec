@@ -39,8 +39,6 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-
-
 install -d $RPM_BUILD_ROOT%{_iconsdir} $RPM_BUILD_ROOT%{_desktopdir} $RPM_BUILD_ROOT%{_pixmapsdir}
 install data/Ri-li-icon-16x16.png $RPM_BUILD_ROOT%{_pixmapsdir}
 install data/Ri-li-icon-32x32.png $RPM_BUILD_ROOT%{_pixmapsdir}
@@ -49,12 +47,6 @@ install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
-%post
-
-
-%postun
-
 
 %files
 %defattr(644,root,root,755)
