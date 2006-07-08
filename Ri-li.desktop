@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec=Ri_li
+Name=Ri-li
+Name[pl]=Ri-li
+Comment=Arcade game
+Comment[pl]=Gra arkadowa
+Icon=Ri-li-icon-32x32.png
+Terminal=false
+Type=Application
+Categories=Game;BoardGame;
+# vi: encoding=utf-8
