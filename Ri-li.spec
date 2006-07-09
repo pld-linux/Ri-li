@@ -1,5 +1,5 @@
 Summary:	Ri-li arcade game
-Summary(pl):	Gra arkadowa
+Summary(pl):	Ri-li - gra zrêczno¶ciowa
 Name:		Ri-li
 Version:	1.0.2
 Release:	1
@@ -23,7 +23,7 @@ in this first version and 3 beautiful musics and many sound effects.
 %description -l pl
 Dopracowana, posiadaj±ca 8 wersji jêzykowych (arabsk±, chiñsk±,
 angielsk±, francusk±, niemieck±, japoñsk±, rosyjsk± i hiszpañsk±) gra
-arkadowa. Wyró¿nia siê kolorow±-drewnopodobn± animowan± grafik±,
+zrêczno¶ciowa. Wyró¿nia siê kolorow±-drewnopodobn± animowan± grafik±,
 posiada 40 poziomów, 3 ³adne ¶cie¿ki d¼wiêkowe do wyboru oraz wiele
 efektów d¼wiêkowych.
 
