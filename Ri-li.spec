@@ -3,11 +3,11 @@ Summary(pl):	Ri-li - gra zrêczno¶ciowa
 Name:		Ri-li
 Version:	1.0.2
 Release:	1
+License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/ri-li/%{name}-%{version}.tar.bz2
 Source1:	%{name}.desktop
 # Source0-md5:	1be3222143eda9dc1569d7e04fbda159
-License:	GPL
 URL:		http://www.ri-li.org
 BuildRequires:	SDL-devel
 BuildRequires:	SDL_mixer-devel
@@ -39,7 +39,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install -d $RPM_BUILD_ROOT%{_iconsdir} $RPM_BUILD_ROOT%{_desktopdir} $RPM_BUILD_ROOT%{_pixmapsdir}
+install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 install data/Ri-li-icon-16x16.png $RPM_BUILD_ROOT%{_pixmapsdir}
 install data/Ri-li-icon-32x32.png $RPM_BUILD_ROOT%{_pixmapsdir}
 install data/Ri-li-icon-48x48.png $RPM_BUILD_ROOT%{_pixmapsdir}
@@ -52,10 +52,11 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README AUTHORS NEWS
 %attr(755,root,root) %{_bindir}/Ri_li
+%dir %{_datadir}/%{name}
 %{_datadir}/%{name}/levels.dat
 %{_datadir}/%{name}/sprites.dat
 %{_datadir}/%{name}/Ri-li-icon-*.png
 %{_datadir}/%{name}/*.ico
-%{_datadir}/%{name}/Sounds/*
+%{_datadir}/%{name}/Sounds
 %{_desktopdir}/%{name}.desktop
 %{_pixmapsdir}/%{name}*.png
