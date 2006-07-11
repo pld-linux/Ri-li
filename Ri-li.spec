@@ -1,4 +1,5 @@
 Summary:	Ri-li arcade game
+Summary(de):	Ri-li Arkade Spiel
 Summary(pl):	Ri-li - gra zrêczno¶ciowa
 Name:		Ri-li
 Version:	1.0.2
@@ -19,6 +20,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Full-featured, 8 languages: Arabic, Chinese, English, French, German,
 Japanese, Russian, Spanish. Colorful animated wood engine, 40 levels
 in this first version and 3 beautiful musics and many sound effects.
+
+%description -l de
+Vollunterstützt, 8 Sprachen: Arabisch, Chinesisch, Englisch,
+Französisch, Deutsch, Japanisch, Russisch, Spanisch. Buntes lebendiges
+Holz-Engine, 40 Levels in dieser ersten Version und 3 schöne
+Begleitmusiken und viele tolle Töne.
 
 %description -l pl
 Dopracowana, posiadaj±ca 8 wersji jêzykowych (arabsk±, chiñsk±,
