@@ -2,13 +2,13 @@ Summary:	Ri-li arcade game
 Summary(de):	Ri-li Arkade Spiel
 Summary(pl):	Ri-li - gra zrêczno¶ciowa
 Name:		Ri-li
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/ri-li/%{name}-%{version}.tar.bz2
+# Source0-md5:	36f39cf5966fa4bb495eccf69bb87da6
 Source1:	%{name}.desktop
-# Source0-md5:	1be3222143eda9dc1569d7e04fbda159
 URL:		http://www.ri-li.org
 BuildRequires:	SDL-devel
 BuildRequires:	SDL_mixer-devel
