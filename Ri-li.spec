@@ -1,6 +1,6 @@
 Summary:	Ri-li arcade game
-Summary(de.UTF-8):   Ri-li Arkade Spiel
-Summary(pl.UTF-8):   Ri-li - gra zręcznościowa
+Summary(de.UTF-8):	Ri-li Arkade Spiel
+Summary(pl.UTF-8):	Ri-li - gra zręcznościowa
 Name:		Ri-li
 Version:	2.0.0
 Release:	1
