@@ -1,6 +1,6 @@
 Summary:	Ri-li arcade game
-Summary(de):	Ri-li Arkade Spiel
-Summary(pl):	Ri-li - gra zrêczno¶ciowa
+Summary(de.UTF-8):   Ri-li Arkade Spiel
+Summary(pl.UTF-8):   Ri-li - gra zrÄ™cznoÅ›ciowa
 Name:		Ri-li
 Version:	2.0.0
 Release:	1
@@ -21,18 +21,18 @@ Full-featured, 8 languages: Arabic, Chinese, English, French, German,
 Japanese, Russian, Spanish. Colorful animated wood engine, 40 levels
 in this first version and 3 beautiful musics and many sound effects.
 
-%description -l de
-Vollunterstützt, 8 Sprachen: Arabisch, Chinesisch, Englisch,
-Französisch, Deutsch, Japanisch, Russisch, Spanisch. Buntes lebendiges
-Holz-Engine, 40 Levels in dieser ersten Version und 3 schöne
-Begleitmusiken und viele tolle Töne.
+%description -l de.UTF-8
+VollunterstÃ¼tzt, 8 Sprachen: Arabisch, Chinesisch, Englisch,
+FranzÃ¶sisch, Deutsch, Japanisch, Russisch, Spanisch. Buntes lebendiges
+Holz-Engine, 40 Levels in dieser ersten Version und 3 schÃ¶ne
+Begleitmusiken und viele tolle TÃ¶ne.
 
-%description -l pl
-Dopracowana, posiadaj±ca 8 wersji jêzykowych (arabsk±, chiñsk±,
-angielsk±, francusk±, niemieck±, japoñsk±, rosyjsk± i hiszpañsk±) gra
-zrêczno¶ciowa. Wyró¿nia siê kolorow±-drewnopodobn± animowan± grafik±,
-posiada 40 poziomów, 3 ³adne ¶cie¿ki d¼wiêkowe do wyboru oraz wiele
-efektów d¼wiêkowych.
+%description -l pl.UTF-8
+Dopracowana, posiadajÄ…ca 8 wersji jÄ™zykowych (arabskÄ…, chiÅ„skÄ…,
+angielskÄ…, francuskÄ…, niemieckÄ…, japoÅ„skÄ…, rosyjskÄ… i hiszpaÅ„skÄ…) gra
+zrÄ™cznoÅ›ciowa. WyrÃ³Å¼nia siÄ™ kolorowÄ…-drewnopodobnÄ… animowanÄ… grafikÄ…,
+posiada 40 poziomÃ³w, 3 Å‚adne Å›cieÅ¼ki dÅºwiÄ™kowe do wyboru oraz wiele
+efektÃ³w dÅºwiÄ™kowych.
 
 %prep
 %setup -q
