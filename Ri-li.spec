@@ -2,12 +2,12 @@ Summary:	Ri-li arcade game
 Summary(de.UTF-8):	Ri-li Arkade Spiel
 Summary(pl.UTF-8):	Ri-li - gra zręcznościowa
 Name:		Ri-li
-Version:	2.0.0
+Version:	2.0.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/ri-li/%{name}-%{version}.tar.bz2
-# Source0-md5:	e6dfa35616f5c84eb14ff82517cea796
+# Source0-md5:	57a2ff50a0c704786da8adf61d78bf52
 Source1:	%{name}.desktop
 URL:		http://www.ri-li.org
 BuildRequires:	SDL-devel
@@ -39,6 +39,7 @@ efektów dźwiękowych.
 
 %build
 %configure
+touch gentoo/games-arcade/Ri-li/Ri-li-2.0.0-r1.ebuild
 %{__make}
 
 %install
@@ -57,7 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README AUTHORS NEWS
+%doc README AUTHORS NEWS COPYING.Music COPYING
 %attr(755,root,root) %{_bindir}/Ri_li
 %dir %{_datadir}/%{name}
 %{_datadir}/%{name}/levels.dat
