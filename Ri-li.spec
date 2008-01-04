@@ -4,7 +4,7 @@ Summary(pl.UTF-8):	Ri-li - gra zręcznościowa
 Name:		Ri-li
 Version:	2.0.1
 Release:	1
-License:	GPL
+License:	GPL v2 or GPL v3
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/ri-li/%{name}-%{version}.tar.bz2
 # Source0-md5:	57a2ff50a0c704786da8adf61d78bf52
@@ -44,6 +44,7 @@ touch gentoo/games-arcade/Ri-li/Ri-li-2.0.0-r1.ebuild
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
@@ -66,6 +67,25 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/Ri-li-icon-*.png
 %{_datadir}/%{name}/*.ico
 %{_datadir}/%{name}/Sounds
-%{_datadir}/%{name}/language.*
+%{_datadir}/%{name}/language.dat
+%lang(ar) %{_datadir}/%{name}/language.Ar
+%lang(br) %{_datadir}/%{name}/language.Br
+%lang(zn_CN) %{_datadir}/%{name}/language.Cn
+%lang(de) %{_datadir}/%{name}/language.De
+%lang(nl) %{_datadir}/%{name}/language.Du
+%{_datadir}/%{name}/language.En
+%lang(eo) %{_datadir}/%{name}/language.Eo
+%lang(es) %{_datadir}/%{name}/language.Es
+%lang(fr) %{_datadir}/%{name}/language.Fr
+%lang(hu) %{_datadir}/%{name}/language.Hu
+%lang(it) %{_datadir}/%{name}/language.It
+%lang(ja) %{_datadir}/%{name}/language.Jp
+%lang(ko) %{_datadir}/%{name}/language.Ko
+%lang(pl) %{_datadir}/%{name}/language.Pl
+%lang(pt) %{_datadir}/%{name}/language.Po
+%lang(ru) %{_datadir}/%{name}/language.Ru
+%lang(sv) %{_datadir}/%{name}/language.Se
+%lang(sk) %{_datadir}/%{name}/language.Sl
+%lang(tr) %{_datadir}/%{name}/language.Tu
 %{_desktopdir}/%{name}.desktop
 %{_pixmapsdir}/%{name}*.png
